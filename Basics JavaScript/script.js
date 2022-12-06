@@ -6,7 +6,6 @@ This is many rows comment
  * This is doc comment
  * **/
 
-
 /**
  * Variables this is containers for data store
  * In JS there is three ways to create variables
@@ -40,9 +39,11 @@ let test123;
 let $ = 1;
 let _ =2;
 
-//this is list of illegal names for variables
-//let 1a;
-//let my-name;
+/**
+ * this is list of illegal names for variables
+ * let 1a;
+ * let my-name;
+*/
 
 // Register matters! The variables named apple and AppleE are two different variables
 
