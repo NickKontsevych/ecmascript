@@ -45,3 +45,13 @@ let str2 = 'Single quotes are also allowed';
 let phrase = `With these quotes you can ${str}`;
 console.log(phrase);//With these quotes you can Paste Text
 
+/**
+ * Boolean
+ * This logical type works only with two value: true and false
+ * The boolean can be get as result of compare
+ */
+
+let nameFiledChecked = true; // Yes, name was checked
+let ageFieldChecked = false; // No, the age field was not checked
+let isGreater = 4 > 1;
+console.log(isGreater); // true
