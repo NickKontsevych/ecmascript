@@ -25,3 +25,10 @@ console.log(3 * NaN); //NaN
 console.log("not a number" / 2 - 1); //NaN
 console.log(NaN ** 0) //Only in this case NaN return number 1
 
+/**
+ * BigInt user for very huge numbers. This is cary rare type
+ * We should always add n in the end of value
+ * const bigInt = 1234567890123456789012345678901234567890n;
+ */
+const bigInt = 1234567890123456789012345678901234567890n;
+console.log(bigInt); //1234567890123456789012345678901234567890n;
