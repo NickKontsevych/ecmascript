@@ -1,6 +1,10 @@
 /**
  * In JS we have 8 data types:
  * number
+ * string
+ * object
+ * boolean
+ * bigint
 
  /**
  * The number type represents both integers and floating-point numbers.*
@@ -50,7 +54,6 @@ console.log(phrase);//With these quotes you can Paste Text
  * This logical type works only with two value: true and false
  * The boolean can be get as result of compare
  */
-
 let nameFiledChecked = true; // Yes, name was checked
 let ageFieldChecked = false; // No, the age field was not checked
 let isGreater = 4 > 1;
@@ -67,6 +70,24 @@ console.log(age);
  * The "undefined"
  * This is special value that represents that the value was not assigned
  */
-
 let empty;
 console.log(empty); //undefined
+
+/**
+ * typeof
+ * This operator return type of argument
+ */
+console.log(typeof undefined); //undefined
+console.log(typeof "STRING"); //string
+
+/**
+ * Exercise_1
+ * “let name = "John";
+ * alert( `Hey ${1}` ); // Hey 1
+ * alert( `Hey ${"name"}` ); // Hey name
+ * alert( `Hey ${name}` ); // Hey John
+ */
+let name = "John"
+console.log( `Hey ${1}` ); // Hey 1
+console.log( `Hey ${"name"}` ); // Hey name
+console.log( `Hey ${name}` ); // Hey John
