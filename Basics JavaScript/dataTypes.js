@@ -55,3 +55,18 @@ let nameFiledChecked = true; // Yes, name was checked
 let ageFieldChecked = false; // No, the age field was not checked
 let isGreater = 4 > 1;
 console.log(isGreater); // true
+
+/**
+ * The "null"
+ * This is just a special value that represents 'none', 'empty' or 'unknown value'.
+ */
+let age = null;
+console.log(age);
+
+/**
+ * The "undefined"
+ * This is special value that represents that the value was not assigned
+ */
+
+let empty;
+console.log(empty); //undefined
