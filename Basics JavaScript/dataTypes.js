@@ -32,3 +32,16 @@ console.log(NaN ** 0) //Only in this case NaN return number 1
  */
 const bigInt = 1234567890123456789012345678901234567890n;
 console.log(bigInt); //1234567890123456789012345678901234567890n;
+
+/**
+ * String
+ * A string in JavaScript must be enclosed in quotation marks.
+ * let str = "Paste Text";
+ * let str2 = 'Single quotes are also allowed';
+ * let phrase = `with these quotes you can ${str}`;
+ */
+let str = "Hello";
+let str2 = 'Single quotes are also allowed';
+let phrase = `With these quotes you can ${str}`;
+console.log(phrase);//With these quotes you can Paste Text
+
