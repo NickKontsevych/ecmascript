@@ -46,4 +46,3 @@ console.log("Boolean --> undefined --> " + Boolean(undefined)); //false
 console.log("Boolean --> NaN --> " + Boolean(NaN)); //false
 console.log("Boolean --> \"\" --> " + Boolean("")); //false
 console.log("Boolean --> 1 --> " + Boolean(1)) //true
-
