@@ -25,8 +25,8 @@ console.log('6' / '2'); //3, all string become number
 console.log("Numeric conversion, unary +");
 let apples = "2";
 let oranges = "3";
-console.log( apples + oranges ); // "23",
-console.log( +apples + +oranges ); //5, the + works the same as Numbers()
+console.log("apples + oranges = " + apples + oranges ); // "23",
+console.log(+apples + +oranges ); //5, the + works the same as Numbers()
 //Exercise_1
 let a = 1;
 let b = 1;
@@ -58,10 +58,11 @@ console.log(numX)
  * alert(a + b); // 12
  * Expect alert(a + b); // 3
 */
-let numberFirst = prompt("First num?", 1);
-let numberSecond = prompt("Second num?", 2);
-alert(+a + +b); // 12
+//let numberFirst = prompt("First num?", 1);
+//let numberSecond = prompt("Second num?", 2);
+//console.log(+a + +b); // 12
 //Or
-numberFirst = +prompt("First num?", 1);
-numberSecond = +prompt("Second num?", 2);
-alert(a + b);
+//numberFirst = +prompt("First num?", 1);
+//numberSecond = +prompt("Second num?", 2);
+//console.log(a + b);
+
