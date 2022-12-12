@@ -37,3 +37,33 @@
 // let sendMessage = login == 'Employee'? "Hello": login === 'Boss'? "Hey": login === ''? "ninja": '';
 
 console.log("The data")
+
+/*
+Homework part logical operators
+ */
+
+console.log(null || 2 || undefined); // 2
+console.log(console.log(1) || 2 || console.log(3)); //1 2
+console.log( 1 && null && 2); //null(false)
+console.log(null || 2 && 3 || 4);
+
+let userAge = 31;
+
+if (userAge >= 14 && userAge <= 90) {
+    console.log(userAge)
+} else {
+    console.log("F*c* you!")
+}
+
+if (userAge <= 14 && userAge >= 90) {
+    console.log(userAge)
+} else {
+    console.log("F*c* you!")
+}
+
+if (!(userAge >= 14 && userAge <= 90)) {
+    console.log(userAge)
+} else {
+    console.log("F*c* you!")
+}
+
