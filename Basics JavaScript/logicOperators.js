@@ -57,3 +57,13 @@ console.log(1 && 2 && null && 3); //null
 console.log(1 && 2 && 3); //3
 
 //THe priority of && higher than ||
+
+
+//The operator ! (No)
+console.log(!true); //false
+console.log(!false); //true
+console.log(!0); //true
+
+//Double !! convert value to boolean type
+console.log(!!"The some text"); //true
+console.log(!!null); //false
