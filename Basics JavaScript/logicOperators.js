@@ -33,3 +33,27 @@ let nickName = "SuperDev";
 
 console.log(firstName || lastName || nickName || true); //SuperDev
 
+// Operator && (and)
+
+console.log(true && true); //true
+console.log(true && false); //false
+console.log(false && true); //false
+console.log(false && false); //false
+
+let currentTimeHour = 10;
+let currentTimeMinutes = 30;
+
+if (currentTimeHour == 10 && currentTimeMinutes == 30) {
+    console.log("Current time 10:30");
+}
+
+//The && searches for the first false
+//The && returns first false or last value if it can't find false
+console.log(1 && 0); //0
+console.log(1 && 5); //5
+console.log(null && 5); //null
+console.log(0 && "someText"); //0
+console.log(1 && 2 && null && 3); //null
+console.log(1 && 2 && 3); //3
+
+//THe priority of && higher than ||
