@@ -1,3 +1,4 @@
+
 let functionsText = "The functions.\nTo create functions you should user use next schema:" +
     "\nfunction functionName(argument if needed){\n body\n} "
 let textHello = "Hello";
@@ -46,3 +47,7 @@ function numChange(number){
 }
 numChange(11);
 console.log(number46);
+
+function getMinNumber(number_1, number_2) {
+    return number_1 >= number_2?number_1:number_2;
+}
