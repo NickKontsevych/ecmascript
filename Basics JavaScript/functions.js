@@ -51,3 +51,10 @@ console.log(number46);
 function getMinNumber(number_1, number_2) {
     return number_1 >= number_2?number_1:number_2;
 }
+
+
+function newFunction(argument, argument){} // ! function declaration
+let newFunctionDirect = function(){}; // ! function expression
+let newFunctions = (args, args_2) => { // ! arrow function
+    //body
+}
